@@ -10,6 +10,6 @@ resp = requests.get(
 )
 resp = resp.json()
 
-print(f'export AWS_ACCESS_KEY_ID={resp["AccessKeyId"]};')
-print(f'export AWS_SECRET_ACCESS_KEY={resp["SecretAccessKey"]};')
-print(f'export AWS_SESSION_TOKEN={resp["Token"]};')
+print(f'export AWS_ACCESS_KEY_ID={resp["AccessKeyId"]}')
+print(f'export AWS_SECRET_ACCESS_KEY={resp["SecretAccessKey"]}')
+print(f'export AWS_SESSION_TOKEN={resp["Token"]}')
